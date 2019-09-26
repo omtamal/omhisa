@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,500,500i,800,800i&subset=latin-ext')
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+
+
+html {
+  font-family: 'Poppins', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block;
+}
+
+body {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+  font-family: "Poppins", sans-serif;
+  color: #333132;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+
+/*#background {
+  background-size: cover;
+  background-position: center;
+  -webkit-animation: fade-in 1.2s ease-in-out;
+  -moz-animation: fade-in ease-in-out 1.2s both;
+  -ms-animation: fade-in ease-in-out 1.2s both;
+  -o-animation: fade-in ease-in-out 1.2s both;
+  animation: fade-in 1.2s ease-in-out;
+  visibility: visible;
+  -webkit-backface-visibility: hidden;
+}*/
+
+/*@-webkit-keyframes fade-in{0%{opacity:0;} 100%{opacity:1;}}
+@-moz-keyframes fade-in{0%{opacity:0} 100%{opacity:1}}
+@-o-keyframes fade-in{0%{opacity:0} 100%{opacity:1}}
+@keyframes fade-in{0%{opacity:0} 100%{opacity:1}}*/
+
+/*////////////////////////////////*/
+/*CSS*/
+/*////////////////////////////////*/
+
+.centering > img {
+  display: none;
+/*  width: 100%;*/
+  opacity: 0; /* visually hide the img element */
+}
+
+.centering.is-loaded {
+  filter: none; /* remove the blur on fullres image */
+  transition: filter 1s;
+}
+
+.centering {
+/*  background: url(../img/bg_02.jpg);*/
+  background-size: cover;
+  background-position: center;
+  filter: blur(9px); /* blur the lowres image */
+  padding: 30px;
+  height: 100vh;
+  font-weight: 800;
+  font-size: 12px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.okvir{
+  display: inline-block;
+  right: 0;
+  position: absolute;
+  width: 540px;
+  box-sizing: border-box;
+  margin: 60 0 0 0;
+  padding: 30px;
+  background-color: rgba(255,245,238,0);
+/*  outline: 2px solid rgba(34, 51, 85, 0.2);
+  outline-offset: -5px;*/
+}
+
+.firma {
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0px;
+  /*line-height: 1.2;*/
+  /*background-color: khaki;*/
+}
+
+.logo {
+  opacity: 1;
+  height: 50px;
+  background-image: url(../img/logo02.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  /*background-color: pink;*/
+}
+
+.dejavnost {
+  /*background-color: green;*/
+  margin-top: 6px;
+  font-size: 24px;
+}
+
+.mail {
+  /*margin-top: 18px;*/
+  width: 180px;
+  margin: 24px 0 0 -18px;
+  padding: 18px;
+  /*border: 18px;*/
+  font-weight: 500;
+  font-size: 20px;
+  background: #89FFCBC9;
+}
+
+/*////////////////////////////////*/
+@media (max-width: 1200px) {
+/*////////////////////////////////*/
+  .okvir{
+    position: relative;
+    margin: 120 0 0 0;
+    right: 0;
+    width: 420px;
+    padding: 24px;
+  }
+  .logo {
+    height: 42px;
+  }
+  .dejavnost {
+    font-size: 20px;
+  }
+  .mail {
+    margin: 12px 0 0 -12px;
+    width: 150px;
+    padding: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    background: #FFD789E0;
+  }
+}
+
+/*////////////////////////////////*/
+@media (max-width: 480px) {
+/*////////////////////////////////*/
+  .okvir{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: auto;
+    padding: 15px;
+  }
+  .logo {
+    height: 30px;
+  }
+  .dejavnost {
+    font-size: 14px;
+  }
+  .mail {
+    margin: 9px 0 0 -9px;
+    width: 120px;
+    padding: 9px;
+    font-weight: 500;
+    font-size: 14px;
+    background: #FFD789E0;
+  }
+}
+
+
