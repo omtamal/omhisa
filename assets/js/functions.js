@@ -9,7 +9,7 @@ $( document ).ready(function()
   window.addEventListener('load', function() {
 
   // setTimeout to simulate the delay from a real page load
-  setTimeout(lazyLoad, 1000);
+  setTimeout(lazyLoad, 50);
 
 });
 
