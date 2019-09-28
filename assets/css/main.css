@@ -110,12 +110,12 @@ body {
 
 .mail {
   /*margin-top: 18px;*/
-  width: 150px;
+  width: 180px;
   margin: 20px 0 0 -14px;
   padding: 14px;
   /*border: 18px;*/
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   color: rgb(255,255,255);
   background: #89FFCBC9;
 }
@@ -131,17 +131,17 @@ body {
     padding: 24px;
   }
   .logo {
-    height: 42px;
+    height: 48px;
   }
   .dejavnost {
     font-size: 20px;
   }
   .mail {
     margin: 12px 0 0 -12px;
-    width: 120px;
+    width: 150px;
     padding: 12px;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     color: rgb(255,255,255);
     background: #89FFCBC9;
   }
@@ -158,17 +158,17 @@ body {
     padding: 15px;
   }
   .logo {
-    height: 30px;
+    height: 42px;
   }
   .dejavnost {
     font-size: 14px;
   }
   .mail {
-    margin: 9px 0 0 -9px;
-    width: 108px;
+    margin: 11px 0 0 -11px;
+    width: 114px;
     padding: 9px;
     font-weight: 500;
-    font-size: 11px;
+    font-size: 12px;
     color: rgb(255,255,255);
     background: #89FFCBC9;
   }
