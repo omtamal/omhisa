@@ -110,10 +110,10 @@ body {
 
 .mail {
   /*margin-top: 18px;*/
-  text-align: center;
+  /*text-align: center;*/
   width: 180px;
   margin: 20px 0 0 -14px;
-  padding: 14px;
+  padding: 14px 4px 14px 36px;
   /*border: 18px;*/
   font-weight: 500;
   font-size: 18px;
@@ -140,7 +140,7 @@ body {
   .mail {
     margin: 12px 0 0 -12px;
     width: 150px;
-    padding: 12px;
+    padding: 12px 8px 12px 24px;
     font-weight: 500;
     font-size: 16px;
     color: rgb(255,255,255);
@@ -167,7 +167,7 @@ body {
   .mail {
     margin: 11px 0 0 -11px;
     width: 114px;
-    padding: 9px;
+    padding: 9px 18px 9px 21px;
     font-weight: 500;
     font-size: 14px;
     color: rgb(255,255,255);
