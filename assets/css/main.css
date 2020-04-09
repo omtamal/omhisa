@@ -110,6 +110,7 @@ body {
 
 .mail {
   /*margin-top: 18px;*/
+  text-align: center;
   width: 180px;
   margin: 20px 0 0 -14px;
   padding: 14px;
