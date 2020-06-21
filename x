@@ -9,5 +9,5 @@
       }
     }
   ],
-  "payId": "tadej$omhisa.si"
+  "payId": "x$omhisa.si"
 }
