@@ -1,0 +1,13 @@
+{
+  "addresses": [
+    {
+      "paymentNetwork": "XRPL",
+      "environment": "MAINNET",
+      "addressDetailsType": "CryptoAddressDetails",
+      "addressDetails": {
+        "address": "r3FDmgkNSKEphqCkMTC6J5e1Eo3cBiV6Na"
+      }
+    }
+  ],
+  "payId": "pay$omhisa.si"
+}
